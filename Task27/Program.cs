@@ -7,7 +7,7 @@ int addition(int num)
 { 
     while (num >= 1)
     {
-        sum = (num%10)+(num/10%10);
+        sum += num%10;
         num = num/10;
     }
 
